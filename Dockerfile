@@ -1,5 +1,5 @@
 #getting base image
-FROM alpine
+FROM ubuntu
 MAINTAINER Arvind Javali <JavaliReports>
 RUN apt-get update -qq / 
   && pip install virustotal-api-v2

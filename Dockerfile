@@ -5,7 +5,7 @@ MAINTAINER Arvind Javali <JavaliReports>
 USER root
 
 RUN apt-get update -qq
-RUN apt install python3-pip -qq
+RUN apt-get install python3-pip -qq
 RUN pip install virustotal-api-v2
   
 COPY docs/content ${HOME}/content

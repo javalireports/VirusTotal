@@ -3,7 +3,7 @@ FROM ubuntu
 
 MAINTAINER Arvind Javali <JavaliReports>
 
-RUN python2 -m pip install virustotal-api-v2
+RUN pip install virustotal-api-v2
 
 COPY docs/content ${HOME}/content
 

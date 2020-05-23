@@ -6,7 +6,7 @@ USER root
 
 RUN apt-get update -qq
 RUN apt-get install python3-pip -qq
-RUN pip install virustotal-api-v2
+RUN pip install virustotal3
   
 COPY docs/content ${HOME}/content
 WORKDIR ${HOME}

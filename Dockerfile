@@ -3,7 +3,7 @@ FROM ubuntu
 
 MAINTAINER Arvind Javali <JavaliReports>
 
-RUN apt install python2.7
+RUN apt-get install python2
 RUN pip install virustotal-api-v2
 
 COPY docs/content ${HOME}/content

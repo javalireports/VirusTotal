@@ -1,6 +1,6 @@
 #getting base image ubuntu
-#FROM ubuntu
-#MAINTAINER Arvind Javali <JavaliReports>
+FROM ubuntu
+MAINTAINER Arvind Javali <JavaliReports>
 #RUN apt-get install python3
 #RUN python3 -m pip install virustotal-api-v2
 #COPY docs/content ${HOME}/content

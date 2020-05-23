@@ -22,7 +22,7 @@ RUN adduser --disabled-password \
 
 USER ${NB_USER}
 
-RUN RUN python3 -m pip install openhunt==1.6.7 attackcti==0.3.0 --user virustotal-api-v2==0.8 --user
+RUN RUN python3 -m pip install openhunt==1.6.7 attackcti==0.3.0 virustotal-api-v2==0.8 --user
 
 COPY docs ${HOME}/docs
 

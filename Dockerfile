@@ -1,5 +1,5 @@
 #getting base image ubuntu
-FROM ubuntu
+FROM cortexneurons/virustotal_getreport
 MAINTAINER Arvind Javali <JavaliReports>
 #RUN apt-get install python3
 #RUN python3 -m pip install virustotal-api-v2

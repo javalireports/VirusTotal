@@ -11,7 +11,7 @@
   
 #USER ${USER}
 
-
+FROM malice/virustotal
 FROM cyb3rward0g/jupyter-base:0.0.3
 
 ARG NB_USER

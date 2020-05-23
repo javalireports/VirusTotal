@@ -11,7 +11,6 @@ RUN pip install virustotal3
   
 COPY docs/content ${HOME}/content
 
-WORKDIR ${HOME}
 USER ${USER}
 
 CMD {"echo", "Successfully created image"}

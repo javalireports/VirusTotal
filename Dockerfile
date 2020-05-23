@@ -14,3 +14,5 @@ COPY docs/content ${HOME}/content
 USER ${USER}
 
 CMD {"echo", "Successfully created image"}
+
+WORKDIR ${HOME}

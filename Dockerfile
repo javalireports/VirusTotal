@@ -14,5 +14,3 @@ COPY docs/content ${HOME}
 USER ${USER}
 
 CMD {"echo", "Successfully created image"}
-
-WORKDIR ${HOME}

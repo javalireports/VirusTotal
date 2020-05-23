@@ -2,7 +2,7 @@
 FROM ubuntu
 MAINTAINER Arvind Javali <JavaliReports>
 
-USER root
+#USER root
 
 RUN apt-get update -qq
 RUN apt-get install python3-pip -qq
@@ -11,6 +11,6 @@ RUN pip install virustotal3
   
 COPY docs/content ${HOME}
 
-USER ${USER}
+#USER ${USER}
 
 CMD {"echo", "Successfully created image"}
